@@ -1,0 +1,51 @@
+.link-one {
+  position: relative;
+  display: inline-flex;
+  color: #2e3134;
+  font-size: 14px;
+  border: #d5d6d6;
+  border-width: 1px;
+  border-style: solid;
+  height: 46px;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -1px;
+}
+.link-two {
+  position: relative;
+  display: inline-flex;
+  color: #2e3134;
+  font-size: 14px;
+  border: #d5d6d6;
+  border-width: 1px;
+  border-style: solid;
+  height: 46px;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -1px;
+  margin-left: -1px;
+}
+.link-three {
+  position: relative;
+  display: inline-flex;
+  color: #2e3134;
+  font-size: 14px;
+  border: #d5d6d6;
+  border-width: 1px;
+  border-style: solid;
+  height: 46px;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -1px;
+  margin-left: -1px;
+}
+
+.navbar {
+  border-bottom: solid;
+  border-color: #d5d6d6;
+  border-width: 1px;
+  margin-top: -1px;
+}
