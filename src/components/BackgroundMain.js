@@ -8,8 +8,6 @@ const BackgroundMain = ({ img, styleClass, title, children, }) => {
             className={styleClass}
             fluid={img}>"
             <h1 style={{ fontSize: "72px", width: "50vw" }} className="title text-white text-center">{title}</h1>
-            {children}
-
         </Background>
     )
 
