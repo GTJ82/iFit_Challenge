@@ -1,0 +1,49 @@
+#main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  margin: 2em auto;
+  padding-top: 7%;
+
+  .card {
+    position: relative;
+    padding: 2em auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+    strong {
+      font-weight: bolder;
+    }
+
+    img {
+      position: relative;
+      width: 300px;
+      height: 200px;
+      border: solid 1px;
+      justify-content: center;
+      margin: 1em auto;
+      display: inline-block;
+      opacity: 0.8;
+      transition: 1s ease;
+    }
+
+    img:hover {
+      opacity: 1;
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      transition: 1s ease;
+    }
+
+    .info {
+      display: inline-block;
+      text-align: center;
+
+      p {
+        margin-right: 2em;
+        margin-left: 2em;
+      }
+    }
+  }
+}

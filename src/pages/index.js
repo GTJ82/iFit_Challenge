@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import BackgroundMain from "../components/BackgroundMain";
 // import Button from "../components/Button";
 import CardContainer from "../components/CardContainer";
+import Card from "../components/Card";
 
 import SEO from "../components/seo"
 
@@ -18,7 +19,7 @@ const IndexPage = ({ data }) => (
       styleClass="background"
 
     />
-    <CardContainer />
+    <Card />
 
 
 

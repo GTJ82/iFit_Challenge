@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from "../components/card.modules.css";
 
 import Image1 from "../images/63bd490406a1dff2d0d688c5b1e0ba3ca864e169.png";
 import Image2 from "../images/67d14d5b58811ca699e8be3b88dba8bb27470c2c.png";
@@ -68,8 +69,8 @@ const Card = () => {
     const CreateCard = (info, index) => {
 
         return (
-            <div className="card" style={{ width: "288px", height: "280px" }} key={index}>
-                <img src={info.image} alt="image" className="card-img-top" />
+            <div className="card" style={styles.card} key={index}>
+                <img style={styles.img} src={info.image} alt="image" className="card-img-top" />
                 <div className="card-body">
                     <h5 className="card-title">{info.title}</h5>
                     <p className="card-text">{info.text}</p>
@@ -78,7 +79,7 @@ const Card = () => {
         )
     }
 
-    return <div className="grid">{info.map(CreateCard)}</div>;
+    return <div className="grid" style={styles.grid}>{info.map(CreateCard)}</div>;
 
 };
 
