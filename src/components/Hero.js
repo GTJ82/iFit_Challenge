@@ -2,7 +2,7 @@ import React from "react";
 import Background from "gatsby-background-image";
 
 
-const BackgroundMain = ({ img, styleClass, title, children, }) => {
+const Hero = ({ img, styleClass, title, children, }) => {
     return (
         <Background
             className={styleClass}
@@ -13,5 +13,5 @@ const BackgroundMain = ({ img, styleClass, title, children, }) => {
 
 };
 
-export default BackgroundMain;
+export default Hero;
 

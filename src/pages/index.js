@@ -2,28 +2,24 @@ import React from "react"
 import { graphql } from "gatsby";
 
 import "../components/bootstrap.min.css";
-import Layout from "../components/layout"
-import BackgroundMain from "../components/BackgroundMain";
-// import Button from "../components/Button";
-import CardContainer from "../components/CardContainer";
-import Card from "../components/Card";
 
+import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Hero from "../components/Hero.js";
+import Card from "../components/Card";
+import Equipment from "../components/Equipment";
+
 
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
-    <BackgroundMain
+    <Hero
       img={data.img.childImageSharp.fluid}
       title="The best personal training, right in your own home"
       styleClass="background"
-
     />
     <Card />
-
-
-
-
+    <Equipment />
   </Layout>
 )
 

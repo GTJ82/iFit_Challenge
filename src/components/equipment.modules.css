@@ -1,0 +1,31 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(19rem, 1fr));
+  padding-top: 100px;
+  grid-column-gap: 15px;
+  margin-left: 78px;
+  margin-right: 78px;
+}
+.card {
+  height: 330px;
+  position: relative;
+  padding: 1em auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 1em auto;
+}
+img {
+  position: relative;
+  border: none;
+  justify-content: center;
+  margin: 0em auto;
+  display: inline-block;
+}
+
+/* img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.06);
+  transition: 1s ease;
+} */
