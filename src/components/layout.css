@@ -1,0 +1,8 @@
+.background {
+  height: 801px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}

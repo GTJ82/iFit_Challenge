@@ -16,18 +16,18 @@ const Header = () => {
             <Navbar />
             <div className="container-fluid mt-3 mb-3">
                 <div className="row">
-                    <div className="logo col" style={styles.col}>
+                    <div className="col text-left pr-0 pl-5" style={styles.col}>
                         <img src={logo} alt="logo" />
                     </div>
-                    <div className="col" >
-                        <div className="links" style={styles.links}>
-                            <Link to="/exercise" className="navbar-link mr-3" >EXERCISE</Link>
-                            <Link to="/activity" className="navbar-link mr-3">ACTIVITY</Link>
-                            <Link to="/nutrition" className="navbar-link mr-3">NUTRITION</Link>
-                            <Link to="/sleep" className="navbar-link">SLEEP</Link>
-                        </div>
+                    <div className="col d-flex justify-content-center align-items-center" >
+
+                        <Link to="/exercise" className="navbar-link mr-5" >EXERCISE</Link>
+                        <Link to="/activity" className="navbar-link mr-5">ACTIVITY</Link>
+                        <Link to="/nutrition" className="navbar-link mr-5">NUTRITION</Link>
+                        <Link to="/sleep" className="navbar-link">SLEEP</Link>
+
                     </div>
-                    <div className="col">
+                    <div className="col text-right">
                         <Button />
                     </div>
                 </div>
