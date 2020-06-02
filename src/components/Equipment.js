@@ -1,4 +1,5 @@
 import React from 'react';
+// import Card from "react-bootstrap/Card";
 
 import styles from "../components/equipment.modules.css"
 
@@ -33,17 +34,35 @@ const Equipment = () => {
     const EquipmentCard = (info, index) => {
         return (
 
-            <div className="card" style={styles.card} key={index}>
-                <img src={info.img} alt="image" className="card-img-top" style={styles.img} />
+
+            <div className="cardMain" style={styles.cardMain} key={index}>
+
+                <img src={info.img} alt="image" className="card-img-top equipImage" style={styles.equipImage} />
                 <div className="card-body">
-                    <p className="card-text">{info.text}</p>
+                    <p className="text">{info.text}</p>
                 </div>
             </div>
+
+            // <div className="cardMain" key={index}>
+            //     <div className="row">
+            //         <div className="col">
+            //             <img src={info.img} alt="" className="equipImage" />
+            //             <div className="card-body">
+            //                 <p className="card-text">{info.text}</p>
+            //             </div>
+            //         </div>
+            //     </div>
+            // </div>
+
+
+
         )
     }
 
 
-    return <div id="container" className="grid" style={styles.grid}>{info.map(EquipmentCard)}</div>
+    return <div className="main">
+        {info.map(EquipmentCard)}
+    </div>
 };
 
 export default Equipment;

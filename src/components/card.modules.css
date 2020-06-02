@@ -9,7 +9,8 @@
   height: 584px;
 }
 .card {
-  /* height: 280px; */
+  width: 288px;
+  height: 280px;
   position: relative;
   padding: 1em auto;
   align-items: center;
@@ -22,10 +23,10 @@
 .card:hover {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
-img {
+.image {
   position: relative;
   /* width: 288px; */
-  /* height: 164px; */
+
   border: none;
   justify-content: center;
   margin: 0em auto;
@@ -33,9 +34,24 @@ img {
   transition: 1s ease;
 }
 
-img:hover {
+.image:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.06);
   transition: 1s ease;
+}
+.card-body {
+  align-items: center;
+}
+
+.card-title {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+.avatar {
+  justify-content: center;
+  height: 28px;
+  width: 28px;
+  padding: 2px auto;
 }

@@ -1,0 +1,31 @@
+.shell {
+  overflow: hidden;
+  width: 100vw;
+  margin-top: 25px;
+  margin: 0%;
+  padding: 0%;
+  background-color: #2e3134;
+  border-width: 1px;
+  border-color: lightslategray;
+  border-style: solid;
+}
+
+.one {
+  width: 100vw;
+  height: 206px;
+  border-width: 1px;
+  border-color: lightslategray;
+  border-style: solid;
+}
+.two {
+  width: 100vw;
+  margin-top: -1px;
+  height: 77px;
+}
+.three {
+  width: 100vw;
+  height: 72.5px;
+  border-width: 1px;
+  border-color: lightslategray;
+  border-style: solid;
+}
