@@ -10,7 +10,6 @@ const Hero = ({ img, styleClass, title, children, }) => {
             <h1 style={{ fontSize: "72px", width: "50vw" }} className="title text-white text-center">{title}</h1>
         </Background>
     )
-
 };
 
 export default Hero;

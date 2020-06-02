@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "../components/footer.modules.css"
 import { Link } from "gatsby"
 
+// Social Media icons
 import image1 from "../images/Youtube.png"
 import image2 from "../images/Twitter.png"
 import image3 from "../images/Facebook.png"
@@ -19,6 +20,8 @@ const Footer = () => {
     return (
 
         <div className="shell mt-5">
+
+            {/*  Top row in the Footer */}
             <div className="row one p-0 m-0" style={styles.top}>
                 <div className="col"></div>
                 <div className="col list">
@@ -39,6 +42,8 @@ const Footer = () => {
                 </div>
                 <div className="col"></div>
             </div>
+
+            {/*  Center row in the Footer */}
             <div className="row two ml-0" style={styles.middle}>
                 <a href="https://www.youtube.com/"><img className="social" src={image1} alt="youtube" /></a>
                 <a href="https://twitter.com/"><img className="social" src={image2} alt="twitter" /></a>
@@ -46,6 +51,8 @@ const Footer = () => {
                 <a href="https://www.pinterest.com/"><img className="social" src={image4} alt="pinterest" /></a>
                 <a href="https://www.instagram.com/"><img className="social" src={image5} alt="instagram" /></a>
             </div>
+
+            {/*  Bottom row in the Footer */}
             <div className="row three justify-content-center p-0 m-0" style={styles.bottom}>
                 <div className="col listLeft">
                     <p>English</p><img src={chevron} alt="chevron" className="chevron" />
@@ -57,9 +64,9 @@ const Footer = () => {
 
                 </div>
                 <div className="col list">
-
                 </div>
             </div>
+
         </div>
 
     )

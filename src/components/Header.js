@@ -20,12 +20,10 @@ const Header = () => {
                         <img src={logo} alt="logo" />
                     </div>
                     <div className="col d-flex justify-content-center align-items-center" >
-
                         <Link to="/exercise" className="navbar-link mr-5" >EXERCISE</Link>
                         <Link to="/activity" className="navbar-link mr-5">ACTIVITY</Link>
                         <Link to="/nutrition" className="navbar-link mr-5">NUTRITION</Link>
                         <Link to="/sleep" className="navbar-link">SLEEP</Link>
-
                     </div>
                     <div className="col text-right">
                         <Button />

@@ -23,6 +23,8 @@ const IndexPage = ({ data }) => (
   </Layout>
 )
 
+// Here is the image source used for Hero Background 
+
 export const query = graphql`
 {
   img: file(relativePath: {eq: "background.png"}) {
