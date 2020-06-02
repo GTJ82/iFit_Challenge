@@ -2,10 +2,6 @@
 
 This is a project that was built to try and meet the specs giving by the client
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
 ### Tech used
 
 -GitHub
