@@ -13,7 +13,7 @@ This is a project that was built to try and meet the specs giving by the client
 
 ## Authors
 
-- **Josh Eskew** - _Initial work_ - [GitHUb](#)
+- **Josh Eskew** 
 
 ## Acknowledgments
 
