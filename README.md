@@ -1,6 +1,6 @@
 # iFit Coding Challenge
 
-This is a project that was built to try and meet the specs giving by the client
+This is a single page site for iFit. I was given 48hrs to complete based on an Adobe mockup.
 
 ### Tech used
 
