@@ -1,7 +1,11 @@
 # iFit Coding Challenge
 
+<<<<<<< HEAD
 This is a project that was built to try and meet the specs giving by a potential employer. I was given 48 hours to produce a page that resembled an Adobe XD design given to me to the best of my ability.
 
+=======
+This is a single page site for iFit. I was given 48hrs to complete based on an Adobe mockup.
+>>>>>>> 460efeafe2d55a65af401fdd4cfa5137fdbd8a35
 
 ### Tech used
 
@@ -28,7 +32,7 @@ Bottom of page
 
 ## Authors
 
-- **Josh Eskew** - _Initial work_ - [GitHUb](#)
+- **Josh Eskew** 
 
 ## Acknowledgments
 
