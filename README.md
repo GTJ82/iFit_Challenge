@@ -1,19 +1,30 @@
 # iFit Coding Challenge
 
-This is a project that was built to try and meet the specs giving by the client
+This is a project that was built to try and meet the specs giving by a potential employer. I was given 48 hours to produce a page that resembled an Adobe XD design given to me to the best of my ability.
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Tech used
 
--GitHub
--Visual Studio Code
--Bootstrap
--Node
--Gatsby
--React
+* GitHub
+* Visual Studio Code
+* Bootstrap
+* Node
+* Gatsby
+* React
+
+## Images of site
+
+Top of page
+![Top page](src/images/PageTop.png)
+
+Middle of page
+![Top page](src/images/PageMiddle.png)
+
+Bottom of page
+![Top page](src/images/PageBottom.png)
+
+
+
 
 ## Authors
 
