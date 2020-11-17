@@ -2,7 +2,6 @@
 
 This is a project that was built to try and meet the specs giving by a potential employer. I was given 48 hours to produce a page that resembled an Adobe XD design given to me to the best of my ability.
 
-
 ### Tech used
 
 * GitHub
